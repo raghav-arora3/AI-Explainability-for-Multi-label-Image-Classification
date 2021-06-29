@@ -52,6 +52,6 @@ Python code for implementation of Multi-label Image Classification
  *  **RESULTS**
       * The superpixels having greater weights would be of more importance. We display the final image with top 4 superpixels turned on.
       
-      ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/output.png)
+      ![FINAL IMAGE](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/output.png)
       
      
