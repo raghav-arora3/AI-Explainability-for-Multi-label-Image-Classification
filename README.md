@@ -27,4 +27,15 @@ Python code for implementation of Multi-label Image Classification
          * Imported image-
                 
               ![alt text](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/dog%20and%20cat.jpg)
+      * The image is pre-processed as requred by INCEPTION model(reshaped and pixel values are changed)
+  * **PREDICTION ON IMAGE AND SEGMENTS DISPLAY**  
+      * Predictions are made on the preprocessed image and the top 5 predicted classes are stored.
+      * Segmented image with superpixel regions is diplayed
+         * Segmented image
+            ![alt text](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/segments.png)
+  * **MASK CREATION**
+      * 150 Random masks are created by using **np.random.binomial**
+      * Image pixels are multiplied with masks to create 
+          * Perturbed images
+            ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert1.png) |  ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert2.png)
 ![alt text](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert1.png)
