@@ -38,4 +38,4 @@ Python code for implementation of Multi-label Image Classification
       * Image pixels are multiplied with masks to create Perturbed images
             ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert1.png)
             ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert2.png)
-            ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert1.png)
+            ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert3.png)
