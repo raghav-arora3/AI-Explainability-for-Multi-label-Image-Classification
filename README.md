@@ -55,5 +55,4 @@ Python code for implementation of Multi-label Image Classification
       ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/output.png)
       
  # REFERENCES
-    * <a href="https://scikit-image.org/docs/dev/api/skimage.segmentation.html"> InceptionV3 </a>
-     
+    * [skimage.segmentation.quickshuft](https://scikit-image.org/docs/dev/api/skimage.segmentation.html)
