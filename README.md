@@ -11,4 +11,20 @@ Python code for implementation of Multi-label Image Classification
   importance of superpixel. Image with top 4 features/superpixels turned on(rest are turned off) is displayed depicting the features which lead to the classification of image in
   particular way.
 
+# IMPLEMENTATION
+  * **IMPORTING LIBRARIES**
+     We import useful libraries like-
+      * numpy
+      * tensorflow
+      * sklearn
+      * skimage
+      * copy etc
+  * **IMPORTING OUR PRE-TRAINED MODEL**
+      We import our model by using **tf.keras.applications.InceptionV3()**.
+      Later the model attributes are also displayed.
+  * **IMPORTING IMAGE AND PREPROCESSING**
+      * We import image using **skimage.io.imread**
+         * Imported image-
+                
+              ![alt text](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/dog%20and%20cat.jpg)
 ![alt text](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert1.png)
