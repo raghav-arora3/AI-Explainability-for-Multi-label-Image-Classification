@@ -36,7 +36,12 @@ Python code for implementation of Multi-label Image Classification
   * **MASK CREATION**
       * 150 Random masks are created by using **np.random.binomial**
       * Image pixels are multiplied with masks to create Perturbed images
-      ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert1.png)
-            
+      <p float="left">
+         <img src="https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert1.png" width="100" />
+         <img src="https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert2.png" width="100" /> 
+         <img src="https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert3.png" width="100" />
+      </p>
+      
+      ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert1.png)            
       ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert2.png)
        
