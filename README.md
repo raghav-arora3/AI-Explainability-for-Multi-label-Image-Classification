@@ -42,4 +42,16 @@ Python code for implementation of Multi-label Image Classification
          <img src="https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert3.png" width="300" />
       </p>
       
+ *  **PREDICTIONS ON PERTURBED IMAGE**
+      * We again use our pre-trained INCEPTION V3 MODEL to make predictions on the perturbed images. These predictions are stored in an array.
+   
+ *  **COMPUTING DISTANCE**
+      * We then calculate the distances between the generated images and the original image. For this we use **Sklearn.metrics.pairwise_distances**.
+ *  **FITTING REGRESSION MODEL**
+      * We fit a linear regression model using predictions, perturbations and weights for the top prediction classes to be explained.
+ *  **RESULTS**
+      * The superpixels having greater weights would be of more importance. We display the final image with top 4 superpixels turned on.
+      
+      ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/output.png)
+      
      
