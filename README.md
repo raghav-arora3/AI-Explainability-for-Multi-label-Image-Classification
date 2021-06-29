@@ -12,28 +12,28 @@ Python code for implementation of Multi-label Image Classification
   a particular way.
 
 # IMPLEMENTATION
-  * **IMPORTING LIBRARIES**
+  * **IMPORTING LIBRARIES** <br/>
      We import useful libraries like-
       * numpy
       * tensorflow
       * sklearn
       * skimage
       * copy etc
-  * **IMPORTING OUR PRE-TRAINED MODEL**
+  * **IMPORTING OUR PRE-TRAINED MODEL** <br/>
       We import our model by using **tf.keras.applications.InceptionV3()**.
       Later the model attributes are also displayed.
-  * **IMPORTING IMAGE AND PREPROCESSING**
+  * **IMPORTING IMAGE AND PREPROCESSING** <br/>
       * We import image using **skimage.io.imread**
          * Imported image-
                 
               ![alt text](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/dog%20and%20cat.jpg)
       * The image is pre-processed as requred by INCEPTION model(reshaped and pixel values are changed)
-  * **PREDICTION ON IMAGE AND SEGMENTS DISPLAY**  
+  * **PREDICTION ON IMAGE AND SEGMENTS DISPLAY**  <br/> 
       * Predictions are made on the preprocessed image and the top 5 predicted classes are stored.
       * Segmented image with superpixel regions is displayed
          * Segmented image
             ![alt text](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/segments.png)
-  * **MASK CREATION**
+  * **MASK CREATION** <br/>
       * 150 Random masks are created by using **np.random.binomial**
       * Image pixels are multiplied with masks to create Perturbed images
       <p float="left">
@@ -42,14 +42,14 @@ Python code for implementation of Multi-label Image Classification
          <img src="https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/pert3.png" width="300" />
       </p>
       
- *  **PREDICTIONS ON PERTURBED IMAGE**
+ *  **PREDICTIONS ON PERTURBED IMAGE** <br/>
       * We again use our pre-trained INCEPTION V3 MODEL to make predictions on the perturbed images. These predictions are stored in an array.
    
- *  **COMPUTING DISTANCE**
+ *  **COMPUTING DISTANCE** <br/>
       * We then calculate the distances between the generated images and the original image. For this we use **Sklearn.metrics.pairwise_distances**.
- *  **FITTING REGRESSION MODEL**
+ *  **FITTING REGRESSION MODEL** <br/>
       * We fit a linear regression model using predictions, perturbations and weights for the top prediction classes to be explained.
- *  **RESULTS**
+ *  **RESULTS** <br/>
       * The superpixels having greater weights would be of more importance. We display the final image with top 4 superpixels turned on.
       
       ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/output.png)
