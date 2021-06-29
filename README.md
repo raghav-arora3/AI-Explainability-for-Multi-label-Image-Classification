@@ -52,6 +52,8 @@ Python code for implementation of Multi-label Image Classification
  *  **RESULTS**
       * The superpixels having greater weights would be of more importance. We display the final image with top 4 superpixels turned on.
       
-      ![FINAL IMAGE](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/output.png)
+      ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/output.png)
       
+ # REFERENCES
+    * [skimage.segmentation.quickshift](https://scikit-image.org/docs/dev/api/skimage.segmentation.html)
      
