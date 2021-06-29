@@ -56,3 +56,4 @@ Python code for implementation of Multi-label Image Classification
       
  # REFERENCES
    - [skimage.segmentation.quickshift](https://scikit-image.org/docs/dev/api/skimage.segmentation.html)
+   - [sklearn.metrics.pairwise_distances](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise_distances.html)
