@@ -55,7 +55,5 @@ Python code for implementation of Multi-label Image Classification
       ![](https://raw.githubusercontent.com/raghav-arora3/AI-Explainability-for-Multi-label-Image-Classification/main/output.png)
       
  # REFERENCES
-    [skimage.segmentation.quickshift] (https://towardsdatascience.com/classify-any-object-using-pre-trained-cnn-model-77437d61e05f)
-    <a href="https://scikit-image.org/docs/dev/api/skimage.segmentation.html"> skimage.segmentation.quickshift </a>
-    [trial link](https://www.google.com/search?q=markdown+cheat+sheet&oq=mark&aqs=chrome.0.69i59j69i57j46i433j69i60l3j69i65j69i60.861j0j7&sourceid=chrome&ie=UTF-8)
+    * * <a href="https://scikit-image.org/docs/dev/api/skimage.segmentation.html"> InceptionV3 </a>
      
